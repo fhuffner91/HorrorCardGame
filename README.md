@@ -3,3 +3,4 @@
 <h1>Links</h1>
 <br>
 https://fhuffner91.github.io/horrorcardgame/
+https://horrorcardgame.netlify.app/
