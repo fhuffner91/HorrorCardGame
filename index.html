@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Horror Card Game</title>
+  <link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Horror Card Game
+  </title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <h1 class="page-title">💀 Horror Card Game 💀</h1>
+      <br>
+      <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+      <form id="form">
+        <h2 class="page-subtitle" style="display:none"></h2>
+        <div class="wrapper">
+          <div id="carta-jogador" style="display:none"></div>
+          <div id="carta-maquina" style="display:none"></div>
+        </div>
+        <div class="button">
+          <br><br><button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+          <button type="button" onclick="reiniciar()" id="btnReiniciar">Reiniciar</button><br>
+          <p id="opcao-invalida"></p>
+        </div>
+        <br>
+        <p id="resultado"></p>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>Desenvolvido por Felipe Huffner</p>
+    <a href="https://github.com/fhuffner91"><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" /></a>
+    <br><br><br>
+  </footer>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
